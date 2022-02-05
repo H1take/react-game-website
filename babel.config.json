@@ -1,0 +1,16 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env", {
+          "targets": {
+            "chrome": "58"
+          },
+          "corejs": "3.17.2",
+          "useBuiltIns": "usage"
+        }
+      ],
+      "@babel/preset-typescript",
+      "@babel/preset-react"
+    ],
+    "plugins": ["babel-plugin-styled-components"]
+  }
